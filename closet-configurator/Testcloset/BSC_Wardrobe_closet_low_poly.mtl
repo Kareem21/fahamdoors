@@ -1,0 +1,22 @@
+# Blender 4.0.2 MTL File: 'BSC_Wardrobe_closet_low_poly.blend'
+# www.blender.org
+
+newmtl Material_Wardrobe
+Ns 90.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.086515 0.080216 0.086494
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material_handles
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.342282 0.342282 0.342282
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3

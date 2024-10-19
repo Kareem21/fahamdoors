@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.closet-configurator-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.canvas-container {
+    flex: 0.7; /* Takes up 70% of the width */
+    position: relative;
+    overflow: hidden; /* Prevents the canvas from overflowing */
+}
+
+#closetCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.settings-panel {
+    flex: 0.3; /* Takes up 30% of the width */
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 2px solid #ddd;
+    overflow-y: auto;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2, h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.color-picker {
+    margin-bottom: 15px;
+}
+
+.feature-toggle {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
